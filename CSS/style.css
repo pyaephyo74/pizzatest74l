@@ -45,17 +45,18 @@ nav {
         border:none;
         padding: 5px;
 }
-.navbtn{
-    background: var(--btn-color);
+.navbtn {
+    background: var(--text-color);
     padding: 10px 20px;
     border-radius: 6px;
-    color: var(--text-color);
+    color: var(--btn-color);
     font-weight: 600;
 }
 .navlist a:hover{
     color:var(--btn-color) ;
     background:var(--text-color);
 }
+
 .banner{
     display: flex;
     height: 300px;
@@ -88,6 +89,11 @@ nav {
     padding: 10px 20px;
     font-weight: 600;
     border-radius: 20px;
+}
+.banner-left-text .btn:hover {
+    background: var(--text-color);
+    color: var(--btn-color);
+
 }
 .banner-right{
     margin: auto;
@@ -128,6 +134,10 @@ nav {
     padding: 10px 20px;
     font-weight: 600;
     border-radius: 20px;
+}
+.box1 table tbody tr td .btn:hover {
+    background: var(--secbg-color);
+    color: var(--text-color);
 }
 .box2{
     display: flex;
@@ -254,10 +264,11 @@ nav {
 }
 .firstcard{
     width: 421px;
-    padding: 10px 40px;
+    padding: 30px 40px;
 }
 .secondcard{
     width: 421px;
+    padding-top: 30px;
 }
 .orderlist a{
     display: flex;
@@ -269,8 +280,11 @@ nav {
     width: fit-content;
     background: var(--btn-color);
     color: var(--text-color);
-    font-size: var(--para-fz);
-    
+    font-size: var(--para-fz);   
+}
+.orderlist a:hover {
+    background: var(--text-color);
+    color:var(--btn-color)
 }
 .thirdcard{
     width: 421px;
@@ -278,8 +292,12 @@ nav {
 }
 .thirdcard h3{
     font-size: var(--sectitle-fz);
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 .thirdcard p{
     font-size: var(--para-fz);
+    padding: 10px 0px;
+}
+.last{
+    font-size: var(--title-fz);
 }
